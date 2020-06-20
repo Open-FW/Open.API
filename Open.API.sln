@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API", "Open.API\Open.API.csproj", "{F5DB918A-9EB6-4AD0-925C-591E68E9441F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Common", "Open.API.Common\Open.API.Common.csproj", "{7F04950B-C4DF-4D82-A349-4B618C90ABC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Infrastructure", "Open.API.Infrastructure\Open.API.Infrastructure.csproj", "{F72D99D6-9293-424D-BCD3-EE699F0DF82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Domain", "Open.API.Domain\Open.API.Domain.csproj", "{748AF30F-B18C-480A-BC8F-8E9A96484F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Core", "Open.API.Core\Open.API.Core.csproj", "{3802E9C7-EBCF-4190-9939-050ACA4A0CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Core.CronJob", "Open.API.Core.CronJob\Open.API.Core.CronJob.csproj", "{72CE753E-658F-4CA9-AD36-D2EE8B61D84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Core.GraphQL", "Open.API.Core.GraphQL\Open.API.Core.GraphQL.csproj", "{CE36F560-5F59-4048-B690-CD3975C89304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50B7FA9D-A8FC-439E-BFD2-11547F5E6A5E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Migrations.MSSQL", "Open.API.Migrations.MSSQL\Open.API.Migrations.MSSQL.csproj", "{0B940191-58E4-4FC9-AC76-7DBB9FA00E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Migrations.MySQL", "Open.API.Migrations.MySQL\Open.API.Migrations.MySQL.csproj", "{0CC85E59-D329-4385-9799-D4DB096223B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Migrations.PostgreSQL", "Open.API.Migrations.PostgreSQL\Open.API.Migrations.PostgreSQL.csproj", "{B210B4D2-5F59-4DB7-A93E-90503BA8FD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.API.Migrations.SQLite", "Open.API.Migrations.SQLite\Open.API.Migrations.SQLite.csproj", "{172EB72A-7B51-4D5A-961A-E298867FCD3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5DB918A-9EB6-4AD0-925C-591E68E9441F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5DB918A-9EB6-4AD0-925C-591E68E9441F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5DB918A-9EB6-4AD0-925C-591E68E9441F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5DB918A-9EB6-4AD0-925C-591E68E9441F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F04950B-C4DF-4D82-A349-4B618C90ABC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F04950B-C4DF-4D82-A349-4B618C90ABC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F04950B-C4DF-4D82-A349-4B618C90ABC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F04950B-C4DF-4D82-A349-4B618C90ABC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72D99D6-9293-424D-BCD3-EE699F0DF82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72D99D6-9293-424D-BCD3-EE699F0DF82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72D99D6-9293-424D-BCD3-EE699F0DF82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72D99D6-9293-424D-BCD3-EE699F0DF82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748AF30F-B18C-480A-BC8F-8E9A96484F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748AF30F-B18C-480A-BC8F-8E9A96484F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748AF30F-B18C-480A-BC8F-8E9A96484F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748AF30F-B18C-480A-BC8F-8E9A96484F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3802E9C7-EBCF-4190-9939-050ACA4A0CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3802E9C7-EBCF-4190-9939-050ACA4A0CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3802E9C7-EBCF-4190-9939-050ACA4A0CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3802E9C7-EBCF-4190-9939-050ACA4A0CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CE753E-658F-4CA9-AD36-D2EE8B61D84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CE753E-658F-4CA9-AD36-D2EE8B61D84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CE753E-658F-4CA9-AD36-D2EE8B61D84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CE753E-658F-4CA9-AD36-D2EE8B61D84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE36F560-5F59-4048-B690-CD3975C89304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE36F560-5F59-4048-B690-CD3975C89304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE36F560-5F59-4048-B690-CD3975C89304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE36F560-5F59-4048-B690-CD3975C89304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B940191-58E4-4FC9-AC76-7DBB9FA00E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B940191-58E4-4FC9-AC76-7DBB9FA00E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B940191-58E4-4FC9-AC76-7DBB9FA00E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B940191-58E4-4FC9-AC76-7DBB9FA00E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC85E59-D329-4385-9799-D4DB096223B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC85E59-D329-4385-9799-D4DB096223B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC85E59-D329-4385-9799-D4DB096223B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC85E59-D329-4385-9799-D4DB096223B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B210B4D2-5F59-4DB7-A93E-90503BA8FD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B210B4D2-5F59-4DB7-A93E-90503BA8FD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B210B4D2-5F59-4DB7-A93E-90503BA8FD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B210B4D2-5F59-4DB7-A93E-90503BA8FD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172EB72A-7B51-4D5A-961A-E298867FCD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172EB72A-7B51-4D5A-961A-E298867FCD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172EB72A-7B51-4D5A-961A-E298867FCD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172EB72A-7B51-4D5A-961A-E298867FCD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE6A5534-60A8-46F0-B90C-2746339DFABF}
+	EndGlobalSection
+EndGlobal
